@@ -4,7 +4,6 @@ class Gif extends Component {
 
   handleClick = () => {
     if (this.props.selectGif) {
-      console.log(this.props.id)
       this.props.selectGif(this.props.id);
     }
   }
